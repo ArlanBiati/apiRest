@@ -1,5 +1,4 @@
-import * as knexPkg from 'knex'
-const setupKnex = knexPkg.default
+import { knex as setupKnex } from 'knex'
 
 export const knex = setupKnex({
   client: 'sqlite',
